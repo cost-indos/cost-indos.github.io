@@ -42,9 +42,9 @@ We are always looking for collaboration opportunities with:
 
 Stay connected and receive the latest updates:
 
-- Follow our activities on social media (links to be added)
-- Subscribe to our mailing list (details to be added)
-- Attend our workshops and conferences (links to be added)
+- Follow our activities on [BlueSky](https://bsky.app/profile/cost-indos.bsky.social) and [LinkedIn](https://www.linkedin.com/groups/15307040/).
+- Subscribe to our mailing list (details to be added, TODO).
+- Attend our workshops and conferences (links to be added, TODO).
 
 ## Mailing Address
 
@@ -52,4 +52,4 @@ INDoS COST Action
 c/o  Prof. Jochem Rieger  
 Ammerlaender Heerstrasse 114-118  
 D-26129 Oldenburg  
-Germany  
+Germany

@@ -4,6 +4,7 @@ description: >-
   Website for the INDoS COST Action - Information Network on Data-driven Optimization and Simulation
 baseurl: ""
 url: "https://cost-indos.github.io"
+logo: /assets/images/logo.svg
 
 # Build settings
 markdown: kramdown

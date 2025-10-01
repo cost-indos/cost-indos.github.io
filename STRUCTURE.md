@@ -93,17 +93,6 @@ Edit `collaborators.md` - add new collaborator cards:
 </div>
 ```
 
-### Adding Working Groups
-Edit `working-groups.md` - add new Working Group sections:
-```html
-<div class="working-group">
-  <h3>WP#: Title</h3>
-  <p><strong>Leader:</strong> Name</p>
-  <p><strong>Objective:</strong> Description</p>
-  <!-- ... -->
-</div>
-```
-
 ## SEO and Metadata
 
 The site uses `jekyll-seo-tag` plugin which automatically adds:

@@ -70,7 +70,7 @@ Our network brings together leading researchers and practitioners from across Eu
   </div>
 
   <div class="collaborator-card">
-    <h3>Tba (TODO)</h3>
+    <h3>tba, TODO</h3>
     <span class="role">Working Group 5 Leader</span>
     <p><strong>Institution:</strong> </p>
     <p><strong>Email:</strong> </p>

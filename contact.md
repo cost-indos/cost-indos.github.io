@@ -1,32 +1,25 @@
 ---
-layout: page
+layout: default
 title: Contact
-permalink: /contact.html
 ---
 
 ## Get in Touch
 
-We welcome inquiries from researchers, practitioners, students, and industry partners interested in data-driven optimization and simulation.
-
-<div class="contact-info">
-  <h3>General Inquiries</h3>
-  <p><strong>Email:</strong> <a href="mailto:contact@indos-cost.eu">contact@indos-cost.eu</a></p>
-  <p>For general questions about the INDoS COST Action, please use the email address above.</p>
-</div>
+We welcome inquiries from researchers, students, and industry partners interested in improving neuroimaging data for sharing. For up-to-date administrative information, you can also check the description of the project on the [COST Action website](https://www.cost.eu/actions/CA24161).
 
 <div class="contact-info">
   <h3>Action Chair</h3>
-  <p><strong>Name:</strong> Dr. Jane Smith</p>
-  <p><strong>Institution:</strong> University of Example</p>
-  <p><strong>Email:</strong> <a href="mailto:jane.smith@example.edu">jane.smith@example.edu</a></p>
+  <p><strong>Name:</strong> Prof. Joachim Rieger</p>
+  <p><strong>Institution:</strong> Carl Von Ossietzky Universitaet, Germany</p>
+  <p><strong>Email:</strong> jochem.rieger@uni-oldenburg.de</p>
   <p>For matters related to the overall coordination and strategic direction of the Action.</p>
 </div>
 
 <div class="contact-info">
   <h3>Vice Chair</h3>
-  <p><strong>Name:</strong> Prof. John Doe</p>
-  <p><strong>Institution:</strong> Technical University of Sample</p>
-  <p><strong>Email:</strong> <a href="mailto:john.doe@sample.edu">john.doe@sample.edu</a></p>
+  <p><strong>Name:</strong> Dr. Guiomar Niso</p>
+  <p><strong>Institution:</strong> Cajal Institute CSIC, Madrid, Spain</p>
+  <p><strong>Email:</strong> guiomar.niso@cajal.csic.es</p>
   <p>For administrative and organizational questions.</p>
 </div>
 
@@ -34,12 +27,7 @@ We welcome inquiries from researchers, practitioners, students, and industry par
 
 ### Become a Member
 
-If you are interested in joining the INDoS COST Action as a member or participant:
-
-1. Contact the Action Chair or Vice Chair to express your interest
-2. Provide information about your research background and expertise
-3. Indicate which work packages align with your interests
-4. We will guide you through the membership process
+If you are interested in joining the INDoS COST Action as a member or participant, you can sign up for an [e-COST account](https://e-services.cost.eu/) and join one of the [working groups](https://www.cost.eu/actions/CA24161/#tabs+Name:Working%20Groups%20and%20Membership). You can also directly contact the working group coordinator.
 
 ### Collaboration Opportunities
 
@@ -56,16 +44,12 @@ Stay connected and receive the latest updates:
 
 - Follow our activities on social media (links to be added)
 - Subscribe to our mailing list (details to be added)
-- Attend our workshops and conferences
+- Attend our workshops and conferences (links to be added)
 
 ## Mailing Address
 
 INDoS COST Action  
-c/o [Institution Name]  
-[Street Address]  
-[City, Postal Code]  
-[Country]
-
----
-
-*We look forward to hearing from you and building a strong network for data-driven optimization and simulation!*
+c/o  Prof. Jochem Rieger  
+Ammerlaender Heerstrasse 114-118  
+D-26129 Oldenburg  
+Germany  

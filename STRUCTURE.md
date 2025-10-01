@@ -1,6 +1,7 @@
 # Jekyll Website Structure Guide
 
 ## Overview
+
 This Jekyll website is designed for the INDoS COST Action project. It focuses on pages rather than blog posts, with a modern, clean design.
 
 ## Directory Structure
@@ -18,10 +19,10 @@ This Jekyll website is designed for the INDoS COST Action project. It focuses on
 │   ├── css/
 │   │   └── style.css    # Main stylesheet
 │   └── images/
-│       └── logo.svg     # Site logo
+│       └── logo.png     # Site logo
 ├── index.md             # Homepage
 ├── collaborators.md     # Collaborators/team page
-├── work-packages.md     # Work packages page
+├── working-groups.md     # Working Groups page
 ├── contact.md           # Contact page
 ├── Gemfile              # Ruby dependencies
 └── README.md            # Documentation
@@ -31,7 +32,7 @@ This Jekyll website is designed for the INDoS COST Action project. It focuses on
 
 ### 1. Logo Display
 - Logo appears in the header on all pages
-- Configured in `_config.yml` with `logo: /assets/images/logo.svg`
+- Configured in `_config.yml`
 - To change: replace the logo file and update the path in config
 
 ### 2. Navigation
@@ -56,7 +57,7 @@ This Jekyll website is designed for the INDoS COST Action project. It focuses on
 2. Add front matter:
    ```yaml
    ---
-   layout: page
+   layout: default
    title: Your Page Title
    permalink: /your-page.html
    ---
@@ -92,10 +93,10 @@ Edit `collaborators.md` - add new collaborator cards:
 </div>
 ```
 
-### Adding Work Packages
-Edit `work-packages.md` - add new work package sections:
+### Adding Working Groups
+Edit `working-groups.md` - add new Working Group sections:
 ```html
-<div class="work-package">
+<div class="working-group">
   <h3>WP#: Title</h3>
   <p><strong>Leader:</strong> Name</p>
   <p><strong>Objective:</strong> Description</p>
@@ -116,7 +117,7 @@ Configure SEO in `_config.yml`:
 title: Your Site Title
 description: Your site description
 url: https://your-domain.com
-logo: /assets/images/logo.svg  # Used in structured data
+logo: /assets/images/logo.png  # Used in structured data
 ```
 
 ## RSS Feed
@@ -129,26 +130,29 @@ Posts are not used, but the feed structure is available if needed.
 1. **Images**: Optimize images before adding them
    - Use SVG for logos and icons (scalable, small file size)
    - Compress PNGs/JPEGs
-   
+
 2. **CSS**: The stylesheet is a single file for simplicity
    - Consider minification for production
-   
+
 3. **Caching**: GitHub Pages handles caching automatically
 
 ## Development Workflow
 
 1. **Local Development**:
+
    ```bash
    bundle exec jekyll serve
    # Visit http://localhost:4000
    ```
 
 2. **Making Changes**:
+
    - Edit content files (`.md`)
    - Jekyll auto-regenerates on save
    - Refresh browser to see changes
 
 3. **Deployment**:
+
    - Push to GitHub
    - GitHub Pages builds automatically
    - Site live at https://cost-indos.github.io
@@ -156,21 +160,25 @@ Posts are not used, but the feed structure is available if needed.
 ## Troubleshooting
 
 ### Jekyll won't build
+
 - Check `_config.yml` syntax (must be valid YAML)
 - Ensure all required gems are in Gemfile
 - Run `bundle install` to update dependencies
 
 ### Logo not showing
+
 - Check logo path in `_config.yml`
 - Ensure logo file exists in `assets/images/`
 - Verify file extension matches config
 
 ### Navigation not working
+
 - Check links in `_includes/header.html`
 - Ensure permalink in page front matter matches link
 - Verify files have `.html` extension in permalink
 
 ### Styling issues
+
 - Clear browser cache
 - Check CSS syntax in `assets/css/style.css`
 - Verify class names match between HTML and CSS
@@ -178,11 +186,13 @@ Posts are not used, but the feed structure is available if needed.
 ## Browser Support
 
 The website supports:
+
 - Modern browsers (Chrome, Firefox, Safari, Edge)
 - Mobile browsers (iOS Safari, Chrome Mobile)
 - Responsive design for all screen sizes
 
 CSS features used:
+
 - Flexbox for layouts
 - CSS Grid for collaborator cards
 - CSS custom properties could be added for theming

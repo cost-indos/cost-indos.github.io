@@ -14,7 +14,8 @@
         <ul class="nav-list">
           <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
           <li><a href="{{ '/collaborators.html' | relative_url }}" {% if page.url contains 'collaborators' %}class="active"{% endif %}>Collaborators</a></li>
-          <li><a href="{{ '/work-packages.html' | relative_url }}" {% if page.url contains 'work-packages' %}class="active"{% endif %}>Work Packages</a></li>
+          <li><a href="{{ '/working-groups.html' | relative_url }}" {% if page.url contains 'working-groups' %}class="active"{% endif %}>Working Groups</a></li>
+          <li><a href="{{ '/news.html' | relative_url }}" {% if page.url contains 'news' %}class="active"{% endif %}>News</a></li>
           <li><a href="{{ '/contact.html' | relative_url }}" {% if page.url contains 'contact' %}class="active"{% endif %}>Contact</a></li>
         </ul>
       </nav>

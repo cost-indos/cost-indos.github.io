@@ -110,7 +110,7 @@ body {
 }
 
 .page-header h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #2c3e50;
   font-weight: 700;
 }
@@ -121,16 +121,16 @@ body {
 }
 
 .page-content h2 {
-  font-size: 2rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
   color: #2c3e50;
 }
 
 .page-content h3 {
-  font-size: 1.5rem;
-  margin-top: 1.5rem;
-  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.6rem;
   color: #34495e;
 }
 
@@ -213,8 +213,8 @@ body {
   display: block;
 }
 
-/* Work Package Styles */
-.work-package {
+/* Working Group Styles */
+.working-group {
   background: #f8f9fa;
   padding: 2rem;
   margin-bottom: 2rem;
@@ -222,7 +222,7 @@ body {
   border-left: 4px solid #3498db;
 }
 
-.work-package h3 {
+.working-group h3 {
   color: #2c3e50;
   margin-top: 0;
 }

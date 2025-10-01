@@ -1,10 +1,9 @@
-title: INDoS COST Action
-email: contact@indos-cost.eu
-description: >-
-  Website for the INDoS COST Action - Information Network on Data-driven Optimization and Simulation
+title: INDoS - Improving Neuroimaging Data for Sharing
+email: robert.oostenveld@donders.ru.nl
+description: INDoS COST Action
 baseurl: ""
 url: "https://cost-indos.github.io"
-logo: /assets/images/logo.svg
+logo: /assets/images/INDoS-logo-circular.png
 
 # Build settings
 markdown: kramdown
@@ -16,7 +15,7 @@ plugins:
 header_pages:
   - index.md
   - collaborators.md
-  - work-packages.md
+  - workgroups.md
   - contact.md
 
 # Exclude from processing
@@ -24,3 +23,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - STRUCTURE.md
+  - LICENSE.md

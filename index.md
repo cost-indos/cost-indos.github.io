@@ -26,14 +26,14 @@ Our mission is to make neuroimaging data truly FAIR—Findable, Accessible, Inte
 
 <h2>Key Objectives</h2>
 <ul>
-<li>**Establish shared standards for data quality** Develop and promote guidelines for quality assessment and control (QA/QC) across neuroimaging modalities to ensure transparent, reliable, and reusable data.</li>
-<li>**Enhance metadata practices** Improve the description and annotation of neuroimaging data and experimental information to make datasets more findable, interoperable, and reusable.</li>
-<li>**Standardize preprocessing pipelines** Define and disseminate rational, well-documented preprocessing procedures to improve reproducibility and facilitate data integration across studies and sites.</li>
-<li>**Clarify ethical and legal frameworks** Develop practical guidelines and training to help researchers navigate privacy regulations and ethical considerations while sharing human neuroimaging data responsibly.</li>
-<li>**Build a pan-European network** Connect researchers, software developers, data stewards, and legal experts to foster collaboration, knowledge exchange, and the development of interoperable tools.</li>
-<li>**Promote training and capacity building** Create high-quality training materials, workshops, and opportunities for young researchers to strengthen skills in open science and neuroimaging data sharing.</li>
-<li>**Support dissemination and adoption** Ensure that the Action’s outputs—guidelines, tools, and standards—are widely communicated, openly accessible, and adopted by the neuroimaging community and beyond.</li>
-<li>**Advance FAIR and open science** Contribute to a shift toward more transparent, efficient, and ethical research practices in neuroimaging, aligning with European and international open science goals.</li>
+<li><b>Establish shared standards for data quality</b> Develop and promote guidelines for quality assessment and control (QA/QC) across neuroimaging modalities to ensure transparent, reliable, and reusable data.</li>
+<li><b>Enhance metadata practices</b> Improve the description and annotation of neuroimaging data and experimental information to make datasets more findable, interoperable, and reusable.</li>
+<li><b>Standardize preprocessing pipelines</b> Define and disseminate rational, well-documented preprocessing procedures to improve reproducibility and facilitate data integration across studies and sites.</li>
+<li><b>Clarify ethical and legal frameworks</b> Develop practical guidelines and training to help researchers navigate privacy regulations and ethical considerations while sharing human neuroimaging data responsibly.</li>
+<li><b>Build a pan-European network</b> Connect researchers, software developers, data stewards, and legal experts to foster collaboration, knowledge exchange, and the development of interoperable tools.</li>
+<li><b>Promote training and capacity building</b> Create high-quality training materials, workshops, and opportunities for young researchers to strengthen skills in open science and neuroimaging data sharing.</li>
+<li><b>Support dissemination and adoption</b> Ensure that the Action’s outputs—guidelines, tools, and standards—are widely communicated, openly accessible, and adopted by the neuroimaging community and beyond.</li>
+<li><b>Advance FAIR and open science</b> Contribute to a shift toward more transparent, efficient, and ethical research practices in neuroimaging, aligning with European and international open science goals.</li>
 </ul>
 
 <h2>News and Updates</h2>

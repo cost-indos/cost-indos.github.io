@@ -1,0 +1,23 @@
+<header class="site-header">
+  <div class="container">
+    <div class="header-wrapper">
+      <div class="site-branding">
+        {% if site.logo %}
+        <a href="{{ '/' | relative_url }}" class="logo-link">
+          <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" class="site-logo">
+        </a>
+        {% endif %}
+        <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+      </div>
+      
+      <nav class="site-navigation">
+        <ul class="nav-list">
+          <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+          <li><a href="{{ '/collaborators.html' | relative_url }}" {% if page.url contains 'collaborators' %}class="active"{% endif %}>Collaborators</a></li>
+          <li><a href="{{ '/work-packages.html' | relative_url }}" {% if page.url contains 'work-packages' %}class="active"{% endif %}>Work Packages</a></li>
+          <li><a href="{{ '/contact.html' | relative_url }}" {% if page.url contains 'contact' %}class="active"{% endif %}>Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

@@ -1,21 +1,14 @@
-# cost-indos.github.io
-Website for the INDoS COST action
+# INDoS COST action
+
+This repository contains the website for the INDoS COST action.
 
 ## About
 
-This is a Jekyll-based website for the INDoS COST Action - Information Network on Data-driven Optimization and Simulation. The website features a modern, clean design with a focus on content pages rather than blog posts.
+Improving Neuroimaging Data for Sharing (INDoS) is a European [COST Action](https://www.cost.eu) ([CA24161](https://www.cost.eu/actions/CA24148/)) dedicated to transforming how human neuroimaging data is shared, standardized, and reused. Neuroimaging methods like MRI, MEG, EEG, and fNIRS are essential for advancing brain research, but data sharing is often hindered by inconsistent quality standards, missing metadata, unclear legal frameworks, and non-standardized preprocessing. INDoS brings together experts from across Europe and beyond to address these four key challenges: quality assessment and control, metadata standardization, preprocessing pipelines, and ethical and legal guidelines. By strengthening collaboration between researchers, software developers, data stewards, and legal experts, the Action aims to make neuroimaging data more transparent, interoperable, and reusable.
 
-## Features
+Through coordinated networking, the Action will develop guidelines, tools, training materials, and best practices that support FAIR (Findable, Accessible, Interoperable, Reusable) neuroimaging data sharing. It will build bridges between disciplines, foster a pan-European community, and train the next generation of researchers in open science practices. Ultimately, INDoS will enhance reproducibility, accelerate innovation—including AI applications—reduce research costs, and make neuroimaging research more inclusive and efficient across Europe and beyond.
 
-- **Homepage**: Welcome message and project overview
-- **Collaborators Page**: Who is who - key members and their roles
-- **Work Packages Page**: Description of research work packages
-- **Contact Page**: Contact information and ways to get involved
-- **Logo Support**: The header supports displaying a logo on all pages (see configuration below)
-- **Responsive Design**: Mobile-friendly layout
-- **Modern UI**: Clean, simple design with gradient hero section
-
-## Setup
+## Local setup for development and testing
 
 ### Prerequisites
 
@@ -43,51 +36,9 @@ This is a Jekyll-based website for the INDoS COST Action - Information Network o
 
 5. Visit `http://localhost:4000` in your browser
 
-## Configuration
-
-The site configuration is in `_config.yml`. Key settings:
-
-- **Logo**: To add a logo, add the following line to `_config.yml`:
-  ```yaml
-  logo: /assets/images/logo.png
-  ```
-  Then place your logo image in the `assets/images/` directory.
-
-- **Site Title**: Change the `title` field
-- **Email**: Update the `email` field
-- **Description**: Modify the `description` field
-
-## Structure
-
-- `_layouts/`: Page layouts
-  - `default.html`: Main layout with header and footer
-  - `page.html`: Layout for content pages
-- `_includes/`: Reusable components
-  - `header.html`: Site header with navigation
-  - `footer.html`: Site footer
-- `assets/`: Static assets
-  - `css/style.css`: Main stylesheet
-  - `images/`: Image assets (place logo here)
-- Content pages:
-  - `index.md`: Homepage
-  - `collaborators.md`: Collaborators page
-  - `work-packages.md`: Work packages page
-  - `contact.md`: Contact page
-
-## Customization
-
-### Adding a Logo
-
-1. Add your logo image to `assets/images/` (e.g., `logo.png`)
-2. Add this line to `_config.yml`:
-   ```yaml
-   logo: /assets/images/logo.png
-   ```
-3. Rebuild the site
-
 ### Updating Content
 
-Simply edit the markdown files in the root directory:
+Simply edit the markdown files in the root directory, for example:
 - `index.md` for the homepage
 - `collaborators.md` for the collaborators page
 - `work-packages.md` for work packages
@@ -103,4 +54,4 @@ The site is configured for GitHub Pages. Push to the main branch and GitHub Page
 
 ## License
 
-This website is for the INDoS COST Action project.
+The content of this website is released under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/deed.en).

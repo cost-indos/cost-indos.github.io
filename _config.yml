@@ -1,0 +1,25 @@
+title: INDoS COST Action
+email: contact@indos-cost.eu
+description: >-
+  Website for the INDoS COST Action - Information Network on Data-driven Optimization and Simulation
+baseurl: ""
+url: "https://cost-indos.github.io"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - index.md
+  - collaborators.md
+  - work-packages.md
+  - contact.md
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

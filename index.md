@@ -3,7 +3,11 @@ layout: default
 title: INDoS - Improving Neuroimaging Data for Sharing
 ---
 
-## About the Project
+## About COST Action
+
+COST (European Cooperation in Science and Technology) is a funding agency for research and innovation networks. Our Actions help connect research initiatives across Europe and enable scientists to grow their ideas by sharing them with their peers. This boosts their research, career and innovation.
+
+## About INDoS
 
 Improving Neuroimaging Data for Sharing (INDoS) is a European [COST Action](https://www.cost.eu/actions/CA24161) dedicated to transforming how human neuroimaging data is shared, standardized, and reused. Neuroimaging methods like MRI, MEG and EEG are essential for advancing brain research, but data sharing is often hindered by inconsistent quality standards, missing metadata, unclear legal frameworks, and non-standardized preprocessing. INDoS brings together experts from across Europe and beyond to address these four key challenges: quality assessment and control, metadata standardization, preprocessing pipelines, and ethical and legal guidelines. By strengthening collaboration between researchers, software developers, data stewards, and legal experts, the Action aims to make neuroimaging data more transparent, interoperable, and reusable.
 

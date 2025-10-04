@@ -1,24 +1,34 @@
 <header class="site-header">
-  <div class="container">
-    <div class="header-wrapper">
-      <div class="site-branding">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="{{ '/' | relative_url }}">
         {% if site.logo %}
-        <a href="{{ '/' | relative_url }}" class="logo-link">
-          <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" class="site-logo">
-        </a>
+          <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" width="40" height="40" class="d-inline-block align-text-top me-2">
         {% endif %}
-        <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
-      </div>
-      
-      <nav class="site-navigation">
-        <ul class="nav-list">
-          <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
-          <li><a href="{{ '/collaborators.html' | relative_url }}" {% if page.url contains 'collaborators' %}class="active"{% endif %}>Collaborators</a></li>
-          <li><a href="{{ '/working-groups.html' | relative_url }}" {% if page.url contains 'working-groups' %}class="active"{% endif %}>Working Groups</a></li>
-          <li><a href="{{ '/news.html' | relative_url }}" {% if page.url contains 'news' %}class="active"{% endif %}>News</a></li>
-          <li><a href="{{ '/contact.html' | relative_url }}" {% if page.url contains 'contact' %}class="active"{% endif %}>Contact</a></li>
+        {{ site.title }}
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if page.url contains 'collaborators' %}active{% endif %}" href="{{ '/collaborators.html' | relative_url }}">Collaborators</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if page.url contains 'working-groups' %}active{% endif %}" href="{{ '/working-groups.html' | relative_url }}">Working Groups</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if page.url contains 'news' %}active{% endif %}" href="{{ '/news.html' | relative_url }}">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if page.url contains 'contact' %}active{% endif %}" href="{{ '/contact.html' | relative_url }}">Contact</a>
+          </li>
         </ul>
-      </nav>
+      </div>
     </div>
-  </div>
+  </nav>
 </header>

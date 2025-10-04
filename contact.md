@@ -10,7 +10,6 @@ We welcome inquiries from researchers, students, and industry partners intereste
 <div class="contact-info">
   <h3>Action Chair</h3>
   <p><strong>Name:</strong> Prof. Joachim Rieger</p>
-  <p><strong>Institution:</strong> Carl Von Ossietzky Universitaet, Germany</p>
   <p><strong>Email:</strong> jochem.rieger@uni-oldenburg.de</p>
   <p>For matters related to the overall coordination and strategic direction of the Action.</p>
 </div>
@@ -18,7 +17,6 @@ We welcome inquiries from researchers, students, and industry partners intereste
 <div class="contact-info">
   <h3>Vice Chair</h3>
   <p><strong>Name:</strong> Dr. Guiomar Niso</p>
-  <p><strong>Institution:</strong> Cajal Institute CSIC, Madrid, Spain</p>
   <p><strong>Email:</strong> guiomar.niso@cajal.csic.es</p>
   <p>For administrative and organizational questions.</p>
 </div>

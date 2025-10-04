@@ -18,12 +18,14 @@ Improving Neuroimaging Data for Sharing (INDoS) is a European [COST Action](http
 1. Clone the repository
 
 2. Install dependencies:
+
    ```bash
    bundle config set --local path 'vendor/bundle'
    bundle install
    ```
 
 3. Build and serve the site:
+
    ```bash
    bundle exec jekyll serve --incremental --livereload
    ```
@@ -33,6 +35,7 @@ Improving Neuroimaging Data for Sharing (INDoS) is a European [COST Action](http
 ### Updating Content
 
 Simply edit the markdown files in the root directory, for example:
+
 - `index.md` for the homepage
 - `collaborators.md` for the collaborators page
 - `working-groups.md` for Working Groups

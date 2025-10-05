@@ -1,0 +1,15 @@
+- title: Home
+  url: /
+  match: index
+- title: Collaborators
+  url: /collaborators.html
+  match: collaborators
+- title: Working Groups
+  url: /working-groups.html
+  match: working-groups
+- title: News
+  url: /news.html
+  match: news
+- title: Contact
+  url: /contact.html
+  match: contact

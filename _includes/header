@@ -12,21 +12,19 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link {% if page.url contains 'collaborators' %}active{% endif %}" href="{{ '/collaborators.html' | relative_url }}">Collaborators</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link {% if page.url contains 'working-groups' %}active{% endif %}" href="{{ '/working-groups.html' | relative_url }}">Working Groups</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link {% if page.url contains 'news' %}active{% endif %}" href="{{ '/news.html' | relative_url }}">News</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link {% if page.url contains 'contact' %}active{% endif %}" href="{{ '/contact.html' | relative_url }}">Contact</a>
-          </li>
+          {% assign nav_items = site.data.navigation %}
+          {% for item in nav_items %}
+            {% comment %} Determine active state: check page.url or page.path contains item.match {% endcomment %}
+            {% assign is_active = false %}
+            {% if item.match and page.url %}
+              {% if page.url == item.url or page.url contains item.match or page.path contains item.match %}
+                {% assign is_active = true %}
+              {% endif %}
+            {% endif %}
+            <li class="nav-item">
+              <a class="nav-link {% if is_active %}active{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            </li>
+          {% endfor %}
         </ul>
       </div>
     </div>

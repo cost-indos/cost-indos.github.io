@@ -40,7 +40,7 @@ We are always looking for collaboration opportunities with:
 
 Stay connected and receive the latest updates:
 
-- Follow our activities on [BlueSky](https://bsky.app/profile/cost-indos.bsky.social) and [LinkedIn](https://www.linkedin.com/groups/15307040/).
+- Follow our activities on [BlueSky](https://bsky.app/profile/indos-costaction.bsky.social) and [LinkedIn](https://www.linkedin.com/groups/15307040/).
 - Subscribe to our mailing list (details to be added, TODO).
 - Attend our workshops and conferences (links to be added, TODO).
 

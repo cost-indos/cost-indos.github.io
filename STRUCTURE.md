@@ -144,7 +144,7 @@ Posts are not used, but the feed structure is available if needed.
 
    - Push to GitHub
    - GitHub Pages builds automatically
-   - Site live at https://cost-indos.github.io
+   - Site live at https://indos-costaction.github.io
 
 ## Troubleshooting
 

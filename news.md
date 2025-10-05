@@ -3,7 +3,7 @@ layout: default
 title: News
 ---
 
-_Please follow us on [BlueSky](https://bsky.app/profile/cost-indos.bsky.social) and [LinkedIn](https://www.linkedin.com/groups/15307040/) to stay up do date!_
+_Please follow us on [BlueSky](https://bsky.app/profile/indos-costaction.bsky.social) and [LinkedIn](https://www.linkedin.com/groups/15307040/) to stay up do date!_
 
 ## 30 September 2025 - MC1 meeting
 

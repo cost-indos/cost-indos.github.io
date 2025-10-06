@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <a class="navbar-brand d-flex align-items-center" href="{{ '/' | relative_url }}">
         {% if site.logo %}
-          <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" width="40" height="40" class="d-inline-block align-text-top me-2">
+          <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" height="40" class="d-inline-block align-text-top me-2">
         {% endif %}
         {{ site.title }}
       </a>

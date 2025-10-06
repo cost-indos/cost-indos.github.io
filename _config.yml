@@ -1,9 +1,9 @@
-title: INDoS - Improving Neuroimaging Data for Sharing
+title: Improving Neuroimaging Data for Sharing
 email: robert.oostenveld@donders.ru.nl
 description: INDoS COST Action
 baseurl: ""
 url: "https://indos-costaction.github.io"
-logo: /assets/images/INDoS-logo-circular.png
+logo: /assets/images/logo-v5.png
 
 # Build settings
 markdown: kramdown

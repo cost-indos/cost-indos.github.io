@@ -1,15 +1,15 @@
 - title: Home
   url: /
   match: index
-- title: Collaborators
-  url: /collaborators.html
-  match: collaborators
+- title: Coordination
+  url: /coordination
+  match: coordination
 - title: Working Groups
-  url: /working-groups.html
+  url: /working-groups
   match: working-groups
 - title: News
-  url: /news.html
+  url: /news
   match: news
 - title: Contact
-  url: /contact.html
+  url: /contact
   match: contact

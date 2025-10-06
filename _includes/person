@@ -1,0 +1,52 @@
+{% comment %}
+This piece of Liquid template language code includes a person's details from the _data/people.yml file.
+Parameters:
+- id: The unique identifier of the person (required).
+- photo: "yes" or "no" to show or hide the photo (default = "yes")
+- email: "yes" or "no" to show or hide the email (default = "yes")
+- affiliation: "yes" or "no" to show or hide the affiliation (default = "yes")
+{% endcomment %}
+
+{% if include.photo == nill or include.photo == "" %}
+    {% assign showphoto = "yes" %}
+{% else %}
+    {% assign showphoto = include.photo %}
+{% endif %}
+
+{% if include.email == nill or include.email == "" %}
+    {% assign showemail = "yes" %}
+{% else %}
+    {% assign showemail = include.email %}
+{% endif %}
+
+{% if include.affiliation == nill or include.affiliation == "" %}
+    {% assign showaffiliation = "yes" %}
+{% else %}
+    {% assign showaffiliation = include.affiliation %}
+{% endif %}
+
+{% assign person = site.data.people | where: "id", include.id | first %}
+{% if person %}
+    <h4>{{ person.fullname }}</h4>
+    {% if showphoto == "yes" %}
+        {% if person.photo %}
+            <p><img src="/assets/images/profile/{{ person.photo }}" height=150px></p>
+        {% else %}
+            <p><img src="/assets/images/profile/avatar.jpg" height=150px></p>
+        {% endif %}
+    {% endif %}
+    {% if showemail == "yes" %}
+        {% if person.email %}
+            <p><a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
+        {% else %}
+            <p>&nbsp;</p>
+        {% endif %}
+    {% endif %}
+    {% if showaffiliation == "yes" %}
+        {% if person.affiliation %}
+            <p>{{ person.affiliation }}</p>
+        {% else %}
+            <p>&nbsp;</p>
+        {% endif %}
+    {% endif %}
+{% endif %}

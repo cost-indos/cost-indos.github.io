@@ -12,7 +12,7 @@ We are always looking for collaboration opportunities with:
 - **Students:** Participate in training schools and Short-Term Scientific Missions (STSMs)
 - **Funding Agencies:** Support our research and networking activities
 
-If you are interested in joining the INDoS COST Action as a member or participant, you can sign up for an [e-COST account](https://e-services.cost.eu/) and join one of the [working groups](https://www.cost.eu/actions/CA24161/#tabs+Name:Working%20Groups%20and%20Membership). You can also directly contact the [working group](/working-groups) coordinator.
+If you are interested in joining as a member or participant, you can sign up for an [e-COST account](https://e-services.cost.eu/) and join one of the [working groups](https://www.cost.eu/actions/CA24161/#tabs+Name:Working%20Groups%20and%20Membership). You can also directly contact the [working group](/working-groups) coordinator.
 
 ## Get in Touch
 

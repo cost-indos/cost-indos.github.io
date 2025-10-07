@@ -7,13 +7,13 @@ Our mission is to make neuroimaging data truly FAIR—Findable, Accessible, Inte
 
 ## About COST Action
 
-COST (European Cooperation in Science and Technology) is a funding agency for research and innovation networks. COST Actions help connect research initiatives across Europe and enable scientists to grow their ideas by sharing them with their peers. This boosts their research, career and innovation.
+[COST](https://www.cost.eu/) (European Cooperation in Science and Technology) is a funding agency for research and innovation networks. COST Actions help connect research initiatives across Europe and enable scientists to grow their ideas by sharing them with their peers. This boosts their research, career and innovation.
 
 ## About INDoS
 
 Improving Neuroimaging Data for Sharing (INDoS) is a European [COST Action](https://www.cost.eu/actions/CA24161) dedicated to transforming how human neuroimaging data is shared, standardized, and reused. Neuroimaging methods like MRI, MEG and EEG are essential for advancing brain research, but data sharing is often hindered by inconsistent quality standards, missing metadata, unclear legal frameworks, and non-standardized preprocessing. INDoS brings together experts from across Europe and beyond to address these four key challenges: quality assessment and control, metadata standardization, preprocessing pipelines, and ethical and legal guidelines. By strengthening collaboration between researchers, software developers, data stewards, and legal experts, the Action aims to make neuroimaging data more transparent, interoperable, and reusable.
 
-Through coordinated networking, the Action will develop guidelines, tools, training materials, and best practices that support FAIR (Findable, Accessible, Interoperable, Reusable) neuroimaging data sharing. It will build bridges between disciplines, foster a pan-European community, and train the next generation of researchers in open science practices. Ultimately, INDoS will enhance reproducibility, accelerate innovation—including AI applications—reduce research costs, and make neuroimaging research more inclusive and efficient across Europe and beyond.
+Through coordinated networking, the Action will develop guidelines, tools, training materials, and best practices that support [FAIR](https://www.go-fair.org/fair-principles/) (Findable, Accessible, Interoperable, Reusable) neuroimaging data sharing. It will build bridges between disciplines, foster a pan-European community, and train the next generation of researchers in open science practices. Ultimately, INDoS will enhance reproducibility, accelerate innovation—including AI applications—reduce research costs, and make neuroimaging research more inclusive and efficient across Europe and beyond.
 
 ## Key Objectives
 
@@ -28,4 +28,4 @@ Through coordinated networking, the Action will develop guidelines, tools, train
 
 ## News and Updates
 
-Stay tuned for the latest [news](/news), events, and publications from the INDoS COST Action community.
+Stay tuned for the latest [news](/news), events, and publications.

@@ -37,7 +37,7 @@ in-person training.
     <a href="#country-representation">which countries those are</a> and
     <a href="#how-places-are-allocated">how places are allocated</a>.</p>
   </div>
-  <a class="ts-cta__button" href="[[S-REG-URL]]">Register <span aria-hidden="true">→</span></a>
+  <a class="ts-cta__button" href="https://limesurvey.hes-so.ch/index.php/286367?lang=en">Register <span aria-hidden="true">→</span></a>
 </div>
 
 <div class="ts-cta ts-cta--closed">

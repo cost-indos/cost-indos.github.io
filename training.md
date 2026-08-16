@@ -292,9 +292,9 @@ To be reimbursed you must be a registered INDoS member with an eligible affiliat
 **e-COST invitation** the local organiser issues; sign the attendance list at the event; and
 submit the Online Travel Reimbursement Request (OTRR) in e-COST **within 12 days of the event**
 (that is, 14 October 2026 at 23.59 CEST).
-COST allows 30 days; ours is shorter so that claims clear before the grant period closes, and a
-later one risks being rejected. See the
-[COST Annotated Rules](https://www.cost.eu/cost-actions/annotated-rules-qa/) and the
+Although COST allows 30 days for filing OTRRs, we cannot guarantee that your request will be processed
+in time if you submit after the 14 October deadline.
+See the [COST Annotated Rules](https://www.cost.eu/cost-actions/annotated-rules-qa/) and the
 [e-COST platform](https://e-services.cost.eu/) for details.
 
 ## Organisers

@@ -9,7 +9,7 @@ hide_title: true
   <div class="ts-hero__body">
     <p class="ts-hero__eyebrow">INDoS · Working Group 3</p>
     <h1 class="ts-hero__title">Training School</h1>
-    <p class="ts-hero__meta">Madrid · 30 September – 2 October 2026 <span>Registration closed · places offered from the waiting list</span></p>
+    <p class="ts-hero__meta">Madrid · 30 September – 2 October 2026 <span>Registration closed</span></p>
   </div>
   <p class="ts-hero__credit">Illustration generated with Google Gemini (AI)</p>
 </header>
@@ -21,9 +21,6 @@ in-person training.
 - **Where:** Room COLABORA, Espacio Converge, Campus Serrano del CSIC, c/ Serrano 113 posterior, Madrid, Spain (see [venue](#venue))
 - **Cost:** Nothing to attend, and **travel and subsistence are covered** for eligible
   participants (see [reimbursement](#reimbursement)).
-- **Places:** assigned through pre-registration and (now closed) open registration,
-  prioritising countries with no or few representatives yet (see [country
-  representation](#country-representation)).
 
 <br />
 
@@ -31,9 +28,7 @@ in-person training.
   <div class="ts-cta__text">
     <p class="ts-cta__eyebrow">Registration closed</p>
     <p class="ts-cta__deadline">Closed <strong>21 August 2026</strong>, 23:59&nbsp;CEST</p>
-    <p class="ts-cta__note">Registration is now closed. The waiting list is rebuilt under
-    the published rule — <strong>countries with no representative yet, or only one, are
-    prioritised</strong> — and the open seats are offered from it. We will notify everyone
+    <p class="ts-cta__note">Registration is now closed. We will notify everyone
     who registered, selected or not, by <strong>Friday 28 August</strong>. See
     <a href="#country-representation">which countries those are</a> and
     <a href="#how-places-are-allocated">how places are allocated</a>.</p>
@@ -46,9 +41,7 @@ in-person training.
     <p class="ts-cta__eyebrow">Pre-registration round closed</p>
     <p class="ts-cta__deadline">Pre-registration closed <strong>25 July</strong> · availability confirmations closed <strong>6 August</strong></p>
     <p class="ts-cta__note">Thanks to everyone who responded: your answers chose these dates, and
-    places were assigned from that round on 8 August. If you pre-registered and confirmed your
-    availability, you are in the pool. Both registration rounds are now closed — see above for
-    what happens next.</p>
+    places were assigned from that round on 8 August. Both registration rounds are now closed.</p>
   </div>
 </div>
 

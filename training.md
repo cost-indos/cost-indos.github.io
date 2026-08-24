@@ -9,7 +9,7 @@ hide_title: true
   <div class="ts-hero__body">
     <p class="ts-hero__eyebrow">INDoS · Working Group 3</p>
     <h1 class="ts-hero__title">Training School</h1>
-    <p class="ts-hero__meta">Madrid · 30 September – 2 October 2026 <span>Registration open until 21 August · 8 funded seats remain</span></p>
+    <p class="ts-hero__meta">Madrid · 30 September – 2 October 2026 <span>Registration closed · places offered from the waiting list</span></p>
   </div>
   <p class="ts-hero__credit">Illustration generated with Google Gemini (AI)</p>
 </header>
@@ -21,23 +21,24 @@ in-person training.
 - **Where:** Room COLABORA, Espacio Converge, Campus Serrano del CSIC, c/ Serrano 113 posterior, Madrid, Spain (see [venue](#venue))
 - **Cost:** Nothing to attend, and **travel and subsistence are covered** for eligible
   participants (see [reimbursement](#reimbursement)).
-- **Places:** **20 assigned** from the pre-registration round · **8 funded seats open** through
-  registration, until 21 August (see [country representation](#country-representation)).
+- **Places:** assigned through pre-registration and (now closed) open registration,
+  prioritising countries with no or few representatives yet (see [country
+  representation](#country-representation)).
 
 <br />
 
-<div class="ts-cta">
+<div class="ts-cta ts-cta--closed">
   <div class="ts-cta__text">
-    <p class="ts-cta__eyebrow">Registration open — 8 funded seats</p>
-    <p class="ts-cta__deadline">Closes <strong>21 August 2026</strong>, 23:59&nbsp;CEST</p>
-    <p class="ts-cta__note">20 places are assigned from the July pre-registration round, and the
-    approved budget carries 8 more funded seats. <strong>Countries with no representative yet, or
-    only one, are prioritised</strong> — if nobody from your country is attending, your chances
-    are genuinely good, whenever you register. See
+    <p class="ts-cta__eyebrow">Registration closed</p>
+    <p class="ts-cta__deadline">Closed <strong>21 August 2026</strong>, 23:59&nbsp;CEST</p>
+    <p class="ts-cta__note">Registration is now closed. The waiting list is rebuilt under
+    the published rule — <strong>countries with no representative yet, or only one, are
+    prioritised</strong> — and the open seats are offered from it. We will notify everyone
+    who registered, selected or not, by <strong>Friday 28 August</strong>. See
     <a href="#country-representation">which countries those are</a> and
     <a href="#how-places-are-allocated">how places are allocated</a>.</p>
   </div>
-  <a class="ts-cta__button" href="https://limesurvey.hes-so.ch/index.php/286367?lang=en">Register <span aria-hidden="true">→</span></a>
+  <span class="ts-cta__button" role="link" aria-disabled="true">Registration closed <span aria-hidden="true">✕</span></span>
 </div>
 
 <div class="ts-cta ts-cta--closed">
@@ -45,9 +46,9 @@ in-person training.
     <p class="ts-cta__eyebrow">Pre-registration round closed</p>
     <p class="ts-cta__deadline">Pre-registration closed <strong>25 July</strong> · availability confirmations closed <strong>6 August</strong></p>
     <p class="ts-cta__note">Thanks to everyone who responded: your answers chose these dates, and
-    the first 20 places were assigned from that round on 8 August. If you pre-registered and
-    confirmed your availability, you are in the pool — do not register again. If you answered
-    <em>No</em> or missed the confirmation and can now attend, please do register above.</p>
+    places were assigned from that round on 8 August. If you pre-registered and confirmed your
+    availability, you are in the pool. Both registration rounds are now closed — see above for
+    what happens next.</p>
   </div>
 </div>
 
@@ -107,10 +108,10 @@ participants build the Group's outputs together, plus a hands-on session.
 | when | what |
 |---|---|
 | **6 August 2026** | Potential attendees' availability confirmation closed ✓ |
-| **8 August** | Selection ran; the first **20 places** assigned ✓ |
-| **8 – 21 August** | **Open registration** for the remaining 8 funded seats ([register](#top)) |
+| **8 August** | Selection ran; places assigned from the pre-registration round ✓ |
+| **8 – 21 August** | **Open registration** for the remaining funded seats ✓ |
 | **by 14 August** | e-COST invitations of the selected pre-registered attendees are issued |
-| **21 August, 23:59 CEST** | Registration closes |
+| **21 August, 23:59 CEST** | Registration closes ✓ |
 | **22 August** | The waiting list is rebuilt under the published rule; the open seats are offered from it |
 | **by 28 August** | Everyone who registered is notified, selected or not; second-wave e-COST invitations issued |
 | **30 September – 2 October** | The Training School |
@@ -133,9 +134,9 @@ European RTD Organisation: see [Reimbursement](#reimbursement).
 ### Country representation
 
 Places are spread across countries before anything else (see
-[how places are allocated](#how-places-are-allocated)). When the list is rebuilt after
-21 August, the 20 places already assigned count as taken, so what matters for a new registrant
-is how represented their country already is:
+[how places are allocated](#how-places-are-allocated)). Registration is now closed; the places
+already assigned count as taken when the waiting list is rebuilt, so what matters for anyone
+on the list is how represented their country already is:
 
 - **No representative yet — highest priority.** The first registrant from any of these
   countries is served before any country's second, no matter when they register:

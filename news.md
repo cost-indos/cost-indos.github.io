@@ -4,6 +4,12 @@ title: News
 
 Follow us on [BlueSky](https://bsky.app/profile/indos-costaction.bsky.social) and [LinkedIn](https://www.linkedin.com/groups/15307040/).
 
+## 21 August 2026 - WG3 Training School: registration closed
+
+Registration for the [WG3 Training School](/training) in Madrid closed on **Friday 21 August 2026, 23:59 CEST**. Thank you to everyone who registered.
+
+We will notify everyone who registered, selected or not, by **Friday 28 August**.
+
 ## 8 August 2026 - WG3 Training School: 20 places assigned — registration open for 8 more
 
 The first **20 places** for the [WG3 Training School](/training) in Madrid (30 September – 2 October) have been assigned from the July pre-registration round, and **registration is now open for 8 more funded seats**, until **Friday 21 August 2026, 23:59 CEST**.

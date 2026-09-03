@@ -45,6 +45,33 @@ registration window, for **online participation only**, will open soon.
   </div>
 </div>
 
+## Trainers and organisers
+
+<div class="person-cards">
+{% include person id="oscar" tag="Trainer|Organiser" class="person--both" %}
+{% include person id="guiomar" tag="Organiser" class="person--organiser" %}
+<div class="person">
+<h4>Dr. Yasser Alemán-Gómez <span class="person-tags"><span class="person-tag person-tag--trainer">Trainer</span></span></h4>
+<p class="person-photo-wrap"><img class="person-photo" src="/assets/images/people/avatar.jpg" alt=""></p>
+<p class="person-affiliation">Lausanne University Hospital and University of Lausanne, Switzerland</p>
+</div>
+<div class="person">
+<h4>Mélanie Garcia <span class="person-tags"><span class="person-tag person-tag--trainer">Trainer</span></span></h4>
+<p class="person-photo-wrap"><img class="person-photo" src="/assets/images/people/avatar.jpg" alt=""></p>
+<p class="person-affiliation">Massachusetts General Hospital, Harvard Medical School, Boston, USA</p>
+</div>
+<div class="person">
+<h4>Lea Waller <span class="person-tags"><span class="person-tag person-tag--trainer">Trainer</span></span></h4>
+<p class="person-photo-wrap"><img class="person-photo" src="/assets/images/people/avatar.jpg" alt=""></p>
+<p class="person-affiliation">CRIUGM &amp; Université de Montréal, Montréal, Canada</p>
+</div>
+<div class="person person--assistant">
+<h4>Daniel Martín Díez <span class="person-tags"><span class="person-tag person-tag--assistant">Assistant</span></span></h4>
+<p class="person-photo-wrap"><img class="person-photo" src="/assets/images/people/avatar.jpg" alt=""></p>
+</div>
+</div>
+
+
 ## Programme at a glance
 
 The Training School is **hybrid**: the three days can be followed in the room in Madrid or
@@ -457,12 +484,6 @@ Although COST allows 30 days for filing OTRRs, we cannot guarantee that your req
 in time if you submit after the 14 October deadline.
 See the [COST Annotated Rules](https://www.cost.eu/cost-actions/annotated-rules-qa/) and the
 [e-COST platform](https://e-services.cost.eu/) for details.
-
-## Organisers
-
-{% include person id="guiomar" photo="no" %}
-
-{% include person id="oscar" photo="no" %}
 
 <div data-fold-end></div>
 

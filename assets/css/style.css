@@ -798,3 +798,118 @@ details.fold > summary.fold__summary:hover > h2 {
 .fold__body {
   padding: 0 0 1rem;
 }
+
+/* Small marker next to a person's name, e.g. "Trainer" on the training page */
+
+.person-tag {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0.05rem 0.45rem;
+  border-radius: 3px;
+  background: #e6eaf3;
+  color: var(--logo-blue);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  vertical-align: 0.15em;
+}
+
+/* Compact person cards (training page): small square photo on the left,
+   name with markers, email and affiliation on the right. */
+
+.person-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 0.9rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.person-cards > .person {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  column-gap: 0.85rem;
+  align-items: start;
+  padding: 0.75rem 0.85rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid var(--logo-orange);
+}
+
+.person-cards > .person > .person-photo-wrap {
+  grid-column: 1;
+  grid-row: 1 / span 3;
+  margin: 0;
+}
+
+.person-cards > .person > h4,
+.person-cards > .person > .person-email,
+.person-cards > .person > .person-affiliation {
+  grid-column: 2;
+  margin: 0;
+}
+
+.page-content .person-cards > .person > h4 {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+  color: var(--logo-blue);
+}
+
+.person-cards > .person > .person-email,
+.person-cards > .person > .person-affiliation {
+  font-size: 0.85rem;
+  line-height: 1.35;
+}
+
+.person-cards > .person > .person-affiliation {
+  color: #4a5568;
+}
+
+.person-cards .person-photo {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Marker and ribbon colours: trainer = the logo's orange (also the default card
+   ribbon), organiser = purple, a card carrying both markers gets the turquoise ribbon. */
+
+.person-tag--trainer {
+  background: var(--logo-orange);
+  color: var(--logo-blue);
+}
+
+.person-tag--organiser {
+  background: var(--logo-purple);
+  color: #fff;
+}
+
+.person-cards > .person--organiser {
+  border-left-color: var(--logo-purple);
+}
+
+.person-cards > .person--both {
+  border-left-color: var(--logo-turquoise);
+}
+
+.person-tag--assistant {
+  background: var(--logo-lavender);
+  color: #fff;
+}
+
+.person-cards > .person--assistant {
+  border-left-color: var(--logo-lavender);
+}
+
+/* In the compact cards the markers sit on their own line under the name. */
+
+.person-cards .person-tags {
+  display: block;
+  margin-top: 0.2rem;
+}
+
+.person-cards .person-tags .person-tag {
+  margin-left: 0;
+  margin-right: 0.3rem;
+}

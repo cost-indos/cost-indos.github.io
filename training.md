@@ -9,40 +9,93 @@ hide_title: true
   <div class="ts-hero__body">
     <p class="ts-hero__eyebrow">INDoS · Working Group 3</p>
     <h1 class="ts-hero__title">Training School</h1>
-    <p class="ts-hero__meta">Madrid · 30 September – 2 October 2026 <span>Registration closed</span></p>
+    <p class="ts-hero__meta">Madrid · 30 September – 2 October 2026 <span>CSIC Campus Serrano, c/ Serrano 113, Madrid, Spain</span></p>
   </div>
   <p class="ts-hero__credit">Illustration generated with Google Gemini (AI)</p>
 </header>
 
-The Working Group 3 (Automated Preprocessing Pipelines) Training School is the INDoS's first
-in-person training.
+## Programme at a glance
 
-- **When:** **30 September – 2 October 2026**, a three-day meeting, 09:00–18:00 each day.
-- **Where:** Room COLABORA, Espacio Converge, Campus Serrano del CSIC, c/ Serrano 113 posterior, Madrid, Spain (see [venue](#venue))
-- **Cost:** Nothing to attend, and **travel and subsistence are covered** for eligible
-  participants (see [reimbursement](#reimbursement)).
-
-<br />
-
-<div class="ts-cta ts-cta--closed">
-  <div class="ts-cta__text">
-    <p class="ts-cta__eyebrow">Registration closed</p>
-    <p class="ts-cta__deadline">Closed <strong>21 August 2026</strong>, 23:59&nbsp;CEST</p>
-    <p class="ts-cta__note">Registration is now closed. We will notify everyone
-    who registered, selected or not, by <strong>Friday 28 August</strong>. See
-    <a href="#country-representation">which countries those are</a> and
-    <a href="#how-places-are-allocated">how places are allocated</a>.</p>
-  </div>
-  <span class="ts-cta__button" role="link" aria-disabled="true">Registration closed <span aria-hidden="true">✕</span></span>
-</div>
-
-<div class="ts-cta ts-cta--closed">
-  <div class="ts-cta__text">
-    <p class="ts-cta__eyebrow">Pre-registration round closed</p>
-    <p class="ts-cta__deadline">Pre-registration closed <strong>25 July</strong> · availability confirmations closed <strong>6 August</strong></p>
-    <p class="ts-cta__note">Thanks to everyone who responded: your answers chose these dates, and
-    places were assigned from that round on 8 August. Both registration rounds are now closed.</p>
-  </div>
+<div class="agenda-scroll">
+<table class="agenda-grid">
+<colgroup><col><col><col></colgroup>
+<thead>
+<tr>
+<th>Day 1 · Wednesday 30 September</th>
+<th>Day 2 · Thursday 1 October</th>
+<th>Day 3 · Friday 2 October</th>
+</tr>
+</thead>
+<tbody>
+<tr class="agenda-shared"><td colspan="3"><span class="agenda-time">09:00</span> Start</td></tr>
+<tr>
+<td>
+<div class="agenda-session"><span class="agenda-title">Welcome</span></div>
+<div class="agenda-session"><span class="agenda-title">INDoS and Working Group 3</span></div>
+<div class="agenda-session"><span class="agenda-title">Introductions</span></div>
+<div class="agenda-session"><span class="agenda-title">Neurodesk <em>(to be confirmed)</em></span></div>
+</td>
+<td>
+<div class="agenda-session"><span class="agenda-title">EEG/MEG preprocessing</span></div>
+<div class="agenda-session"><span class="agenda-title">EEG/MEG hands-on in Neurodesk</span></div>
+</td>
+<td>
+<div class="agenda-session"><span class="agenda-title">fMRI preprocessing with fMRIPrep</span></div>
+<div class="agenda-session"><span class="agenda-title">Execution forensics</span></div>
+</td>
+</tr>
+<tr class="agenda-shared"><td colspan="3">Coffee</td></tr>
+<tr>
+<td>
+<div class="agenda-session"><span class="agenda-title">Standardized preprocessing</span></div>
+<div class="agenda-session"><span class="agenda-title">BIDS across modalities</span></div>
+<div class="agenda-session"><span class="agenda-title">BIDSvue hands-on</span></div>
+<div class="agenda-session"><span class="agenda-title">Containers</span></div>
+</td>
+<td>
+<div class="agenda-session"><span class="agenda-title">PET <em>(to be confirmed)</em></span></div>
+<div class="agenda-session"><span class="agenda-title">Structural MRI</span></div>
+<div class="agenda-session"><span class="agenda-title">Structural MRI hands-on</span></div>
+</td>
+<td>
+<div class="agenda-session"><span class="agenda-title">QA/QC hands-on</span></div>
+<div class="agenda-session"><span class="agenda-title">Introduction to the afternoon's personal projects</span></div>
+</td>
+</tr>
+<tr class="agenda-shared"><td colspan="3"><span class="agenda-time">13:00 – 14:00</span> Lunch</td></tr>
+<tr>
+<td>
+<div class="agenda-session"><span class="agenda-title">Environment bring-up and containers</span></div>
+<div class="agenda-session"><span class="agenda-title">How to read and review a neuroimaging paper</span></div>
+</td>
+<td>
+<div class="agenda-session"><span class="agenda-title">Diffusion MRI</span></div>
+<div class="agenda-session"><span class="agenda-title">Diffusion hands-on</span></div>
+</td>
+<td>
+<div class="agenda-session"><span class="agenda-title">Project pitches, roulette style</span></div>
+<div class="agenda-session"><span class="agenda-title">Project work</span></div>
+</td>
+</tr>
+<tr class="agenda-shared"><td colspan="3"><span class="agenda-time">15:45 – 16:00</span> Coffee</td></tr>
+<tr>
+<td>
+<div class="agenda-session"><span class="agenda-title"><a href="https://www.indos-costaction.eu/journal-club/">Journal Club</a></span></div>
+<div class="agenda-session"><span class="agenda-title">Day wrap and preview of Thursday</span></div>
+</td>
+<td>
+<div class="agenda-session"><span class="agenda-title">Diffusion hands-on (continued)</span></div>
+<div class="agenda-session"><span class="agenda-title">Day wrap, and what to bring to Friday</span></div>
+</td>
+<td>
+<div class="agenda-session"><span class="agenda-title">Project work (continued)</span></div>
+<div class="agenda-session"><span class="agenda-title">Project results presentation</span></div>
+<div class="agenda-session"><span class="agenda-title">Concluding remarks</span></div>
+</td>
+</tr>
+<tr class="agenda-shared"><td colspan="3"><span class="agenda-time">18:00</span> End of the day</td></tr>
+</tbody>
+</table>
 </div>
 
 ## Venue
@@ -360,3 +413,30 @@ See the [COST Annotated Rules](https://www.cost.eu/cost-actions/annotated-rules-
 {% include person id="guiomar" photo="no" %}
 
 {% include person id="oscar" photo="no" %}
+
+<div data-fold-end></div>
+
+<br />
+
+<div class="ts-cta ts-cta--closed">
+  <div class="ts-cta__text">
+    <p class="ts-cta__eyebrow">Registration closed</p>
+    <p class="ts-cta__deadline">Closed <strong>21 August 2026</strong>, 23:59&nbsp;CEST</p>
+    <p class="ts-cta__note">Registration is now closed. We will notify everyone
+    who registered, selected or not, by <strong>Friday 28 August</strong>. See
+    <a href="#country-representation">which countries those are</a> and
+    <a href="#how-places-are-allocated">how places are allocated</a>.</p>
+  </div>
+  <span class="ts-cta__button" role="link" aria-disabled="true">Registration closed <span aria-hidden="true">✕</span></span>
+</div>
+
+<div class="ts-cta ts-cta--closed">
+  <div class="ts-cta__text">
+    <p class="ts-cta__eyebrow">Pre-registration round closed</p>
+    <p class="ts-cta__deadline">Pre-registration closed <strong>25 July</strong> · availability confirmations closed <strong>6 August</strong></p>
+    <p class="ts-cta__note">Thanks to everyone who responded: your answers chose these dates, and
+    places were assigned from that round on 8 August. Both registration rounds are now closed.</p>
+  </div>
+</div>
+
+<script src="{{ '/assets/script/fold-sections.js' | relative_url }}?v={{ site.time | date: '%s' }}" data-open="programme-at-a-glance" defer></script>

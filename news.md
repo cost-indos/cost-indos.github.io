@@ -4,6 +4,13 @@ title: News
 
 Follow us on [BlueSky](https://bsky.app/profile/indos-costaction.bsky.social) and [LinkedIn](https://www.linkedin.com/groups/15307040/).
 
+## 3 September 2026 - WG3 Training School: programme published
+
+The three-day programme of the [WG3 Training School](/training#programme) in Madrid is now
+online: six half-day blocks, from standards, data and environments on Wednesday, through
+EEG/MEG, structural and diffusion MRI on Thursday, to functional MRI and personal projects on
+Friday. Every block combines theory with hands-on practice in Neurodesk.
+
 ## 21 August 2026 - WG3 Training School: registration closed
 
 Registration for the [WG3 Training School](/training) in Madrid closed on **Friday 21 August 2026, 23:59 CEST**. Thank you to everyone who registered.

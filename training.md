@@ -56,43 +56,107 @@ Room **COLABORA**, **Espacio Converge**, Campus Serrano del CSIC — C/ Serrano 
 
 ## Programme
 
-The meeting is a **working** meeting, not a lecture series: three task-force blocks in which
-participants build the Group's outputs together, plus a hands-on session.
+Three days, each with a morning block (09:00 – 13:00) and an afternoon block (14:00 – 18:00),
+with lunch in between. Every block opens with theory and continues with hands-on practice, and
+every session is labelled **(Theory)**, **(Practice)** or **(Plenary)**. Across the three days
+that is about 7 hours of theory and 12½ hours of hands-on work, plus plenaries and breaks. The
+practical sessions run in [Neurodesk](https://www.neurodesk.org/), a browser-based environment,
+so a laptop is all you need to bring.
 
-### Day 1 — Wednesday 30th September
+Sessions marked *to be confirmed* depend on an invited contribution and may move within their
+block; if the PET session does not confirm, its time goes to structural MRI.
 
-| Time | Session |
-|---|---|
-| 09:00 – 09:15 | Welcome and objectives |
-| 09:15 – 11:00 | Task Force 3 (Training): training activities, synthesis and next steps |
-| 11:00 – 11:15 | Coffee |
-| 11:15 – 13:00 | Task Force 3 (Training): training materials roadmap and next steps |
-| 13:00 – 14:00 | Lunch |
-| 14:00 – 15:45 | Task Force 2 (Literature review): scope, review pre-registration, modality subgroups |
-| 15:45 – 16:00 | Coffee |
-| 16:00 – 18:00 | Task Force 2 (Literature review): review protocol and reviewer assignment |
-{: .schedule}
+### Day 1 · Wednesday 30 September
 
-### Day 2 — Thursday 1st October
+#### Block 1 · 09:00 – 13:00 · Standards, data, environments
 
 | Time | Session |
 |---|---|
-| 09:00 – 10:30 | Task Force 1 (Tools and workflows inventory): scope and taxonomy |
+| 09:00 – 09:20 | **(Plenary)** Welcome |
+| 09:20 – 09:35 | **(Plenary)** INDoS and Working Group 3 |
+| 09:35 – 10:00 | **(Plenary)** Introductions: 45 seconds each to say who you are, where you work, your research interests and your expectations for the Training School |
+| 10:00 – 10:30 | **(Theory)** Neurodesk *(to be confirmed)* |
 | 10:30 – 10:45 | Coffee |
-| 10:45 – 13:00 | Task Force 1 (Tools and workflows inventory): survey design and inventory outline |
-| 13:00 – 14:00 | Lunch |
-| 14:00 – 18:00 | Task Force 1 continued: the D3.1 outline, and preparation for the hands-on day |
+| 10:45 – 11:30 | **(Theory)** Standardized preprocessing: why pipelines, why automation, the pipeline end to end with fMRIPrep as the reference model |
+| 11:30 – 12:00 | **(Theory)** BIDS across modalities: structure, validation, the EEG/MEG extensions, BIDS Apps |
+| 12:00 – 12:30 | **(Practice)** BIDSvue hands-on |
+| 12:30 – 13:00 | **(Theory)** Containers |
 {: .schedule}
 
-### Day 3 — Friday 2nd October
+#### Block 2 · 14:00 – 18:00 · Environments, provenance, how to read a paper
 
 | Time | Session |
 |---|---|
-| 09:00 – 13:00 | Open co-working and hacking session on the tools-and-workflows inventory |
-| 13:00 – 14:00 | Lunch |
-| 14:00 – 17:00 | Hacking continued, and prototype show-and-tell |
-| 17:00 – 18:00 | Concluding wrap-up: synthesis, milestones, and next steps |
+| 14:00 – 15:00 | **(Practice)** Environment bring-up and containers |
+| 15:00 – 15:45 | **(Theory)** How to read and review a neuroimaging paper: which parameters to look for, how to evaluate them, the Journal Club review guidelines |
+| 15:45 – 16:00 | Coffee |
+| 16:00 – 17:45 | **(Practice)** [Journal Club](https://www.indos-costaction.eu/journal-club/) |
+| 17:45 – 18:00 | **(Plenary)** Day wrap and preview of Thursday |
+| Evening | Informal group dinner |
 {: .schedule}
+
+### Day 2 · Thursday 1 October
+
+#### Block 3 · 09:00 – 13:00 · EEG/MEG and structural MRI
+
+| Time | Session |
+|---|---|
+| 09:00 – 09:55 | **(Theory)** EEG/MEG preprocessing: the landscape of pipelines, their defaults, and what "an fMRIPrep for M/EEG" would take |
+| 09:55 – 10:50 | **(Practice)** EEG/MEG hands-on in Neurodesk |
+| 10:50 – 11:05 | Coffee |
+| 11:05 – 11:35 | **(Theory)** PET: acquisition, preprocessing and PET-BIDS *(to be confirmed)* |
+| 11:35 – 12:05 | **(Theory)** Structural MRI: FreeSurfer and VBM |
+| 12:05 – 13:00 | **(Practice)** Structural MRI hands-on |
+{: .schedule}
+
+#### Block 4 · 14:00 – 18:00 · Diffusion MRI
+
+| Time | Session |
+|---|---|
+| 14:00 – 15:00 | **(Theory)** Diffusion MRI |
+| 15:00 – 15:45 | **(Practice)** Diffusion hands-on |
+| 15:45 – 16:00 | Coffee |
+| 16:00 – 17:45 | **(Practice)** Diffusion hands-on (continued) |
+| 17:45 – 18:00 | **(Plenary)** Day wrap, and what to bring to Friday |
+{: .schedule}
+
+### Day 3 · Friday 2 October
+
+#### Block 5 · 09:00 – 13:00 · Functional MRI: did it work?
+
+| Time | Session |
+|---|---|
+| 09:00 – 10:15 | **(Theory)** fMRI preprocessing with fMRIPrep |
+| 10:15 – 10:45 | **(Practice)** Execution forensics |
+| 10:45 – 11:00 | Coffee |
+| 11:00 – 12:40 | **(Practice)** QA/QC hands-on |
+| 12:40 – 13:00 | **(Plenary)** Introduction to the afternoon's personal projects |
+{: .schedule}
+
+#### Block 6 · 14:00 – 18:00 · Personal projects and closing
+
+| Time | Session |
+|---|---|
+| 14:00 – 14:20 | **(Plenary)** Project pitches, roulette style |
+| 14:20 – 15:45 | **(Practice)** Project work |
+| 15:45 – 16:00 | Coffee |
+| 16:00 – 16:35 | **(Practice)** Project work (continued) |
+| 16:35 – 17:25 | **(Practice)** Project results presentation |
+| 17:25 – 18:00 | **(Plenary)** Concluding remarks |
+{: .schedule}
+
+### Before you arrive
+
+We will write to every participant with the details, but plan on three things:
+
+1. **A laptop and a browser, with a Neurodesk account created and tested**, so that the
+   Wednesday bring-up is a check rather than a setup.
+2. **One or more papers of your choice, picked from the
+   [Journal Club](https://www.indos-costaction.eu/journal-club/), read and annotated** with its
+   review template before the school. Your annotations are the material of Block 2's review
+   session. Nobody assigns papers: you are strongly encouraged to choose your own.
+3. **Your own data ready, ideally in BIDS**, or a stated intention to use the example dataset,
+   for the personal projects on Friday.
 
 ## Selection Process
 

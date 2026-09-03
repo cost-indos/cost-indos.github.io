@@ -9,20 +9,20 @@ hide_title: true
   <div class="ts-hero__body">
     <p class="ts-hero__eyebrow">INDoS · Working Group 3</p>
     <h1 class="ts-hero__title">Training School</h1>
-    <p class="ts-hero__meta">Madrid · 30 September – 2 October 2026 <span>Registration closed</span></p>
+    <p class="ts-hero__meta">Hybrid · 30 September – 2 October 2026 <span>In person: CSIC, c/ Serrano 113, Madrid · or online</span></p>
   </div>
   <p class="ts-hero__credit">Illustration generated with Google Gemini (AI)</p>
 </header>
 
-The Working Group 3 (Automated Preprocessing Pipelines) Training School is the INDoS's first
-in-person training.
 
-- **When:** **30 September – 2 October 2026**, a three-day meeting, 09:00–18:00 each day.
-- **Where:** Room COLABORA, Espacio Converge, Campus Serrano del CSIC, c/ Serrano 113 posterior, Madrid, Spain (see [venue](#venue))
-- **Cost:** Nothing to attend, and **travel and subsistence are covered** for eligible
-  participants (see [reimbursement](#reimbursement)).
+## Registration (e-COST invitation required)
 
-<br />
+Taking part, in person or online, requires an **e-COST invitation**, which you receive from the
+organisers and must accept. Places in the room were allocated through a two-phase registration:
+a pre-registration round in July, whose answers also set the dates, and an open registration in
+August for the remaining funded seats. Both are closed, and a waiting list built under the
+[published rule](#how-places-are-allocated) fills any place that comes free. A third
+registration window, for **online participation only**, will open soon.
 
 <div class="ts-cta ts-cta--closed">
   <div class="ts-cta__text">
@@ -45,10 +45,127 @@ in-person training.
   </div>
 </div>
 
+## Trainers and organisers
+
+<div class="person-cards">
+{% include person id="oscar" tag="Trainer|Organiser" class="person--both" %}
+{% include person id="guiomar" tag="Organiser" class="person--organiser" %}
+<div class="person">
+<h4>Dr. Yasser Alemán-Gómez <span class="person-tags"><span class="person-tag person-tag--trainer">Trainer</span></span></h4>
+<p class="person-photo-wrap"><img class="person-photo" src="/assets/images/people/avatar.jpg" alt=""></p>
+<p class="person-affiliation">Lausanne University Hospital and University of Lausanne, Switzerland</p>
+</div>
+<div class="person">
+<h4>Mélanie Garcia <span class="person-tags"><span class="person-tag person-tag--trainer">Trainer</span></span></h4>
+<p class="person-photo-wrap"><img class="person-photo" src="/assets/images/people/avatar.jpg" alt=""></p>
+<p class="person-affiliation">Massachusetts General Hospital, Harvard Medical School, Boston, USA</p>
+</div>
+<div class="person">
+<h4>Lea Waller <span class="person-tags"><span class="person-tag person-tag--trainer">Trainer</span></span></h4>
+<p class="person-photo-wrap"><img class="person-photo" src="/assets/images/people/avatar.jpg" alt=""></p>
+<p class="person-affiliation">CRIUGM &amp; Université de Montréal, Montréal, Canada</p>
+</div>
+<div class="person person--assistant">
+<h4>Daniel Martín Díez <span class="person-tags"><span class="person-tag person-tag--assistant">Assistant</span></span></h4>
+<p class="person-photo-wrap"><img class="person-photo" src="/assets/images/people/avatar.jpg" alt=""></p>
+</div>
+</div>
+
+
+## Programme at a glance
+
+The Training School is **hybrid**: the three days can be followed in the room in Madrid or
+online. See [the programme](#programme) for what each mode involves.
+
+<div class="agenda-scroll">
+<table class="agenda-grid">
+<colgroup><col><col><col></colgroup>
+<thead>
+<tr>
+<th>Day 1 · Wednesday 30 September</th>
+<th>Day 2 · Thursday 1 October</th>
+<th>Day 3 · Friday 2 October</th>
+</tr>
+</thead>
+<tbody>
+<tr class="agenda-shared"><td colspan="3"><span class="agenda-time">09:00</span> Start</td></tr>
+<tr>
+<td>
+<div class="agenda-session"><span class="agenda-title">Welcome</span></div>
+<div class="agenda-session"><span class="agenda-title">INDoS and Working Group 3</span></div>
+<div class="agenda-session"><span class="agenda-title">Introductions</span></div>
+<div class="agenda-session"><span class="agenda-title">Neurodesk <em>(to be confirmed)</em></span></div>
+</td>
+<td>
+<div class="agenda-session"><span class="agenda-title">EEG/MEG preprocessing</span></div>
+<div class="agenda-session"><span class="agenda-title">EEG/MEG hands-on in Neurodesk</span></div>
+</td>
+<td>
+<div class="agenda-session"><span class="agenda-title">fMRI preprocessing with fMRIPrep</span></div>
+<div class="agenda-session"><span class="agenda-title">Execution forensics</span></div>
+</td>
+</tr>
+<tr class="agenda-shared"><td colspan="3">Coffee</td></tr>
+<tr>
+<td>
+<div class="agenda-session"><span class="agenda-title">Standardized preprocessing</span></div>
+<div class="agenda-session"><span class="agenda-title">BIDS across modalities</span></div>
+<div class="agenda-session"><span class="agenda-title">BIDSvue hands-on</span></div>
+<div class="agenda-session"><span class="agenda-title">Containers</span></div>
+</td>
+<td>
+<div class="agenda-session"><span class="agenda-title">PET <em>(to be confirmed)</em></span></div>
+<div class="agenda-session"><span class="agenda-title">Structural MRI</span></div>
+<div class="agenda-session"><span class="agenda-title">Structural MRI hands-on</span></div>
+</td>
+<td>
+<div class="agenda-session"><span class="agenda-title">QA/QC hands-on</span></div>
+<div class="agenda-session"><span class="agenda-title">Introduction to the afternoon's personal projects</span></div>
+</td>
+</tr>
+<tr class="agenda-shared"><td colspan="3"><span class="agenda-time">13:00 – 14:00</span> Lunch</td></tr>
+<tr>
+<td>
+<div class="agenda-session"><span class="agenda-title">Environment bring-up and containers</span></div>
+<div class="agenda-session"><span class="agenda-title">How to read and review a neuroimaging paper</span></div>
+</td>
+<td>
+<div class="agenda-session"><span class="agenda-title">Diffusion MRI</span></div>
+<div class="agenda-session"><span class="agenda-title">Diffusion hands-on</span></div>
+</td>
+<td>
+<div class="agenda-session"><span class="agenda-title">Project pitches, roulette style</span></div>
+<div class="agenda-session"><span class="agenda-title">Project work</span></div>
+</td>
+</tr>
+<tr class="agenda-shared"><td colspan="3"><span class="agenda-time">15:45 – 16:00</span> Coffee</td></tr>
+<tr>
+<td>
+<div class="agenda-session"><span class="agenda-title"><a href="https://www.indos-costaction.eu/journal-club/">Journal Club</a></span></div>
+<div class="agenda-session"><span class="agenda-title">Day wrap and preview of Thursday</span></div>
+</td>
+<td>
+<div class="agenda-session"><span class="agenda-title">Diffusion hands-on (continued)</span></div>
+<div class="agenda-session"><span class="agenda-title">Day wrap, and what to bring to Friday</span></div>
+</td>
+<td>
+<div class="agenda-session"><span class="agenda-title">Project work (continued)</span></div>
+<div class="agenda-session"><span class="agenda-title">Project results presentation</span></div>
+<div class="agenda-session"><span class="agenda-title">Concluding remarks</span></div>
+</td>
+</tr>
+<tr class="agenda-shared"><td colspan="3"><span class="agenda-time">18:00</span> End of the day</td></tr>
+</tbody>
+</table>
+</div>
+
 ## Venue
 
-Room **COLABORA**, **Espacio Converge**, Campus Serrano del CSIC — C/ Serrano 113 posterior
+**In person:** Room **COLABORA**, **Espacio Converge**, Campus Serrano del CSIC — C/ Serrano 113 posterior
 (entrance through the main CSIC Campus gate), 28006 Madrid, Spain.
+
+**Online:** the platform and connection details are sent by email to online attendees before the
+event.
 
 <div class="map-embed">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.6433037257525!2d-3.6862125000000003!3d40.441207299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228e91f36efad%3A0x22fd33292c016bd2!2sC.%20de%20Serrano%2C%20113%2C%20Chamart%C3%ADn%2C%2028006%20Madrid%2C%20Spain!5e1!3m2!1sen!2sch!4v1784190665485!5m2!1sen!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
@@ -56,45 +173,118 @@ Room **COLABORA**, **Espacio Converge**, Campus Serrano del CSIC — C/ Serrano 
 
 ## Programme
 
-The meeting is a **working** meeting, not a lecture series: three task-force blocks in which
-participants build the Group's outputs together, plus a hands-on session.
+Three days, each with a morning block (09:00 – 13:00) and an afternoon block (14:00 – 18:00),
+with lunch in between. Every block opens with theory and continues with hands-on practice, and
+every session is labelled **(Theory)**, **(Practice)** or **(Plenary)**. Across the three days
+that is about 7 hours of theory and 12½ hours of hands-on work, plus plenaries and breaks. The
+practical sessions run in [Neurodesk](https://www.neurodesk.org/), a browser-based environment,
+so a laptop is all you need, in the room or at home.
 
-### Day 1 — Wednesday 30th September
+**Attending online.** The theory sessions and plenaries are streamed live, the hands-on sessions
+run in Neurodesk so online attendees do the same exercises as the room, and Friday's personal
+projects are open to online attendees too. The platform and connection details are sent by
+email before the event.
+
+Sessions marked *to be confirmed* depend on an invited contribution and may move within their
+block; if the PET session does not confirm, its time goes to structural MRI.
+
+### Day 1 · Wednesday 30 September
+
+#### Block 1 · 09:00 – 13:00 · Standards, data, environments
 
 | Time | Session |
 |---|---|
-| 09:00 – 09:15 | Welcome and objectives |
-| 09:15 – 11:00 | Task Force 3 (Training): training activities, synthesis and next steps |
-| 11:00 – 11:15 | Coffee |
-| 11:15 – 13:00 | Task Force 3 (Training): training materials roadmap and next steps |
-| 13:00 – 14:00 | Lunch |
-| 14:00 – 15:45 | Task Force 2 (Literature review): scope, review pre-registration, modality subgroups |
-| 15:45 – 16:00 | Coffee |
-| 16:00 – 18:00 | Task Force 2 (Literature review): review protocol and reviewer assignment |
-{: .schedule}
-
-### Day 2 — Thursday 1st October
-
-| Time | Session |
-|---|---|
-| 09:00 – 10:30 | Task Force 1 (Tools and workflows inventory): scope and taxonomy |
+| 09:00 – 09:20 | **(Plenary)** Welcome |
+| 09:20 – 09:35 | **(Plenary)** INDoS and Working Group 3 |
+| 09:35 – 10:00 | **(Plenary)** Introductions: 45 seconds each to say who you are, where you work, your research interests and your expectations for the Training School |
+| 10:00 – 10:30 | **(Theory)** Neurodesk *(to be confirmed)* |
 | 10:30 – 10:45 | Coffee |
-| 10:45 – 13:00 | Task Force 1 (Tools and workflows inventory): survey design and inventory outline |
-| 13:00 – 14:00 | Lunch |
-| 14:00 – 18:00 | Task Force 1 continued: the D3.1 outline, and preparation for the hands-on day |
+| 10:45 – 11:30 | **(Theory)** Standardized preprocessing: why pipelines, why automation, the pipeline end to end with fMRIPrep as the reference model |
+| 11:30 – 12:00 | **(Theory)** BIDS across modalities: structure, validation, the EEG/MEG extensions, BIDS Apps |
+| 12:00 – 12:30 | **(Practice)** BIDSvue hands-on |
+| 12:30 – 13:00 | **(Theory)** Containers |
 {: .schedule}
 
-### Day 3 — Friday 2nd October
+#### Block 2 · 14:00 – 18:00 · Environments, provenance, how to read a paper
 
 | Time | Session |
 |---|---|
-| 09:00 – 13:00 | Open co-working and hacking session on the tools-and-workflows inventory |
-| 13:00 – 14:00 | Lunch |
-| 14:00 – 17:00 | Hacking continued, and prototype show-and-tell |
-| 17:00 – 18:00 | Concluding wrap-up: synthesis, milestones, and next steps |
+| 14:00 – 15:00 | **(Practice)** Environment bring-up and containers |
+| 15:00 – 15:45 | **(Theory)** How to read and review a neuroimaging paper: which parameters to look for, how to evaluate them, the Journal Club review guidelines |
+| 15:45 – 16:00 | Coffee |
+| 16:00 – 17:45 | **(Practice)** [Journal Club](https://www.indos-costaction.eu/journal-club/) |
+| 17:45 – 18:00 | **(Plenary)** Day wrap and preview of Thursday |
+| Evening | Informal group dinner |
 {: .schedule}
+
+### Day 2 · Thursday 1 October
+
+#### Block 3 · 09:00 – 13:00 · EEG/MEG and structural MRI
+
+| Time | Session |
+|---|---|
+| 09:00 – 09:55 | **(Theory)** EEG/MEG preprocessing: the landscape of pipelines, their defaults, and what "an fMRIPrep for M/EEG" would take |
+| 09:55 – 10:50 | **(Practice)** EEG/MEG hands-on in Neurodesk |
+| 10:50 – 11:05 | Coffee |
+| 11:05 – 11:35 | **(Theory)** PET: acquisition, preprocessing and PET-BIDS *(to be confirmed)* |
+| 11:35 – 12:05 | **(Theory)** Structural MRI: FreeSurfer and VBM |
+| 12:05 – 13:00 | **(Practice)** Structural MRI hands-on |
+{: .schedule}
+
+#### Block 4 · 14:00 – 18:00 · Diffusion MRI
+
+| Time | Session |
+|---|---|
+| 14:00 – 15:00 | **(Theory)** Diffusion MRI |
+| 15:00 – 15:45 | **(Practice)** Diffusion hands-on |
+| 15:45 – 16:00 | Coffee |
+| 16:00 – 17:45 | **(Practice)** Diffusion hands-on (continued) |
+| 17:45 – 18:00 | **(Plenary)** Day wrap, and what to bring to Friday |
+{: .schedule}
+
+### Day 3 · Friday 2 October
+
+#### Block 5 · 09:00 – 13:00 · Functional MRI: did it work?
+
+| Time | Session |
+|---|---|
+| 09:00 – 10:15 | **(Theory)** fMRI preprocessing with fMRIPrep |
+| 10:15 – 10:45 | **(Practice)** Execution forensics |
+| 10:45 – 11:00 | Coffee |
+| 11:00 – 12:40 | **(Practice)** QA/QC hands-on |
+| 12:40 – 13:00 | **(Plenary)** Introduction to the afternoon's personal projects |
+{: .schedule}
+
+#### Block 6 · 14:00 – 18:00 · Personal projects and closing
+
+| Time | Session |
+|---|---|
+| 14:00 – 14:20 | **(Plenary)** Project pitches, roulette style |
+| 14:20 – 15:45 | **(Practice)** Project work |
+| 15:45 – 16:00 | Coffee |
+| 16:00 – 16:35 | **(Practice)** Project work (continued) |
+| 16:35 – 17:25 | **(Practice)** Project results presentation |
+| 17:25 – 18:00 | **(Plenary)** Concluding remarks |
+{: .schedule}
+
+### Before the school
+
+We will write to every participant, in person or online, with the details, but plan on three
+things:
+
+1. **A laptop and a browser, with a Neurodesk account created and tested**, so that the
+   Wednesday bring-up is a check rather than a setup.
+2. **One or more papers of your choice, picked from the
+   [Journal Club](https://www.indos-costaction.eu/journal-club/), read and annotated** with its
+   review template before the school. Your annotations are the material of Block 2's review
+   session. Nobody assigns papers: you are strongly encouraged to choose your own.
+3. **Your own data ready, ideally in BIDS**, or a stated intention to use the example dataset,
+   for the personal projects on Friday.
 
 ## Selection Process
+
+The selection below concerns places **in the room**. Online attendance is not selected or ranked:
+online attendees receive an e-COST invitation marked as online attendance.
 
 ### Timeline
 
@@ -107,7 +297,7 @@ participants build the Group's outputs together, plus a hands-on session.
 | **21 August, 23:59 CEST** | Registration closes ✓ |
 | **22 August** | The waiting list is rebuilt under the published rule; the open seats are offered from it |
 | **by 28 August** | Everyone who registered is notified, selected or not; second-wave e-COST invitations issued |
-| **30 September – 2 October** | The Training School |
+| **30 September – 2 October** | The Training School, in Madrid and online |
 | **3 October – 14 October** | Reimbursement requests must be filed |
 
 ### Who can take part
@@ -118,7 +308,10 @@ European RTD Organisation: see [Reimbursement](#reimbursement).
 
 > **Not yet a member?** [Joining INDoS](/join) is free and takes a few minutes.
 > If your affiliation falls outside those countries, you are welcome to join us self-funded, seats
-> permitting.
+> permitting, or online.
+
+Online attendance needs INDoS membership in Working Group 3 and an e-COST invitation marked as
+online attendance, and has no affiliation condition. It is not reimbursed.
 
 > **A place is not a reimbursement guarantee.** Being selected records your intent to attend and is
 > separate from e-COST. Reimbursement requires INDoS membership and an **e-COST invitation** that
@@ -272,10 +465,11 @@ The balance between women and men is otherwise preserved, and people are skipped
 categories, never within the list they are on. If nobody on the waiting list can hold the place,
 that is reported rather than filled from another category.
 
-## Reimbursement
+## Reimbursement (in-person participants)
 
-**Travel and subsistence are covered** for eligible participants, through the standard COST
-mechanism. Reimbursement comprises a **flat-rate daily allowance** (per the COST daily-allowance
+**Travel and subsistence are covered** for eligible in-person participants, through the standard
+COST mechanism. Online attendance is not reimbursed: there is no travel claim and no daily
+allowance, because there is no travel. Reimbursement comprises a **flat-rate daily allowance** (per the COST daily-allowance
 table for the host country, covering accommodation, meals, and local transport)
 **plus travel costs up to a total of €1,500**. There is no registration fee.
 
@@ -291,8 +485,6 @@ in time if you submit after the 14 October deadline.
 See the [COST Annotated Rules](https://www.cost.eu/cost-actions/annotated-rules-qa/) and the
 [e-COST platform](https://e-services.cost.eu/) for details.
 
-## Organisers
+<div data-fold-end></div>
 
-{% include person id="guiomar" photo="no" %}
-
-{% include person id="oscar" photo="no" %}
+<script src="{{ '/assets/script/fold-sections.js' | relative_url }}?v={{ site.time | date: '%s' }}" data-open="programme-at-a-glance" defer></script>

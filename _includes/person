@@ -6,6 +6,9 @@ Parameters:
 - photo: "yes" or "no" to show or hide the photo (default = "yes")
 - email: "yes" or "no" to show or hide the email (default = "yes")
 - affiliation: "yes" or "no" to show or hide the affiliation (default = "yes")
+- tag: optional short marker(s) shown next to the name; separate several with "|" (e.g. "Trainer|Organiser").
+       Each marker also gets a modifier class, e.g. person-tag--trainer, for per-marker colours.
+- class: optional extra class(es) on the wrapping div (e.g. "person--organiser")
 {% endcomment %}
 
 {% if include.photo == nill or include.photo == "" %}
@@ -35,20 +38,20 @@ Parameters:
 {% assign person = site.data.people | where: "id", include.id | first %}
 
 {% if person %}
-<div>
+<div class="person{% if include.class %} {{ include.class }}{% endif %}">
     <h4>
-    {{ person.fullname }}
+    {{ person.fullname }}{% if include.tag %}{% assign tags = include.tag | split: "|" %} <span class="person-tags">{% for tag in tags %}{% assign tagname = tag | strip %}<span class="person-tag person-tag--{{ tagname | downcase | replace: ' ', '-' }}">{{ tagname }}</span> {% endfor %}</span>{% endif %}
     </h4>
     {% if showphoto == "yes" %}
         {% if person.photo %}
-            <p><img class="person-photo" src="{{ person.photo }}"></p>
+            <p class="person-photo-wrap"><img class="person-photo" src="{{ person.photo }}" alt=""></p>
         {% else %}
-            <p><img class="person-photo" src="/assets/images/people/avatar.jpg"></p>
+            <p class="person-photo-wrap"><img class="person-photo" src="/assets/images/people/avatar.jpg" alt=""></p>
         {% endif %}
     {% endif %}
     {% if showemail == "yes" %}
         {% if person.email %}
-            <p><a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
+            <p class="person-email"><a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
         {% else %}
             <p>&nbsp;</p>
         {% endif %}
@@ -64,7 +67,7 @@ Parameters:
     {% endif %}
     {% if showaffiliation == "yes" %}
         {% if person.affiliation %}
-            <p>{{ person.affiliation }}</p>
+            <p class="person-affiliation">{{ person.affiliation }}</p>
         {% else %}
             <p>&nbsp;</p>
         {% endif %}

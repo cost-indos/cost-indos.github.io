@@ -9,12 +9,15 @@ hide_title: true
   <div class="ts-hero__body">
     <p class="ts-hero__eyebrow">INDoS · Working Group 3</p>
     <h1 class="ts-hero__title">Training School</h1>
-    <p class="ts-hero__meta">Hybrid · 30 September – 2 October 2026 <span>Face-to-face: CSIC, c/ Serrano 113, Madrid, Spain</span></p>
+    <p class="ts-hero__meta">Hybrid · 30 September – 2 October 2026 <span>In person: CSIC, c/ Serrano 113, Madrid · or online</span></p>
   </div>
   <p class="ts-hero__credit">Illustration generated with Google Gemini (AI)</p>
 </header>
 
 ## Programme at a glance
+
+The Training School is **hybrid**: the three days can be followed in the room in Madrid or
+online. See [the programme](#programme) for what each mode involves.
 
 <div class="agenda-scroll">
 <table class="agenda-grid">
@@ -100,8 +103,11 @@ hide_title: true
 
 ## Venue
 
-Room **COLABORA**, **Espacio Converge**, Campus Serrano del CSIC — C/ Serrano 113 posterior
+**In person:** Room **COLABORA**, **Espacio Converge**, Campus Serrano del CSIC — C/ Serrano 113 posterior
 (entrance through the main CSIC Campus gate), 28006 Madrid, Spain.
+
+**Online:** the platform and connection details are sent by email to online attendees before the
+event.
 
 <div class="map-embed">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.6433037257525!2d-3.6862125000000003!3d40.441207299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228e91f36efad%3A0x22fd33292c016bd2!2sC.%20de%20Serrano%2C%20113%2C%20Chamart%C3%ADn%2C%2028006%20Madrid%2C%20Spain!5e1!3m2!1sen!2sch!4v1784190665485!5m2!1sen!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
@@ -114,7 +120,12 @@ with lunch in between. Every block opens with theory and continues with hands-on
 every session is labelled **(Theory)**, **(Practice)** or **(Plenary)**. Across the three days
 that is about 7 hours of theory and 12½ hours of hands-on work, plus plenaries and breaks. The
 practical sessions run in [Neurodesk](https://www.neurodesk.org/), a browser-based environment,
-so a laptop is all you need to bring.
+so a laptop is all you need, in the room or at home.
+
+**Attending online.** The theory sessions and plenaries are streamed live, the hands-on sessions
+run in Neurodesk so online attendees do the same exercises as the room, and Friday's personal
+projects are open to online attendees too. The platform and connection details are sent by
+email before the event.
 
 Sessions marked *to be confirmed* depend on an invited contribution and may move within their
 block; if the PET session does not confirm, its time goes to structural MRI.
@@ -198,9 +209,10 @@ block; if the PET session does not confirm, its time goes to structural MRI.
 | 17:25 – 18:00 | **(Plenary)** Concluding remarks |
 {: .schedule}
 
-### Before you arrive
+### Before the school
 
-We will write to every participant with the details, but plan on three things:
+We will write to every participant, in person or online, with the details, but plan on three
+things:
 
 1. **A laptop and a browser, with a Neurodesk account created and tested**, so that the
    Wednesday bring-up is a check rather than a setup.
@@ -213,6 +225,9 @@ We will write to every participant with the details, but plan on three things:
 
 ## Selection Process
 
+The selection below concerns places **in the room**. Online attendance is not selected or ranked:
+online attendees receive an e-COST invitation marked as online attendance.
+
 ### Timeline
 
 | when | what |
@@ -224,7 +239,7 @@ We will write to every participant with the details, but plan on three things:
 | **21 August, 23:59 CEST** | Registration closes ✓ |
 | **22 August** | The waiting list is rebuilt under the published rule; the open seats are offered from it |
 | **by 28 August** | Everyone who registered is notified, selected or not; second-wave e-COST invitations issued |
-| **30 September – 2 October** | The Training School |
+| **30 September – 2 October** | The Training School, in Madrid and online |
 | **3 October – 14 October** | Reimbursement requests must be filed |
 
 ### Who can take part
@@ -235,7 +250,10 @@ European RTD Organisation: see [Reimbursement](#reimbursement).
 
 > **Not yet a member?** [Joining INDoS](/join) is free and takes a few minutes.
 > If your affiliation falls outside those countries, you are welcome to join us self-funded, seats
-> permitting.
+> permitting, or online.
+
+Online attendance needs INDoS membership in Working Group 3 and an e-COST invitation marked as
+online attendance, and has no affiliation condition. It is not reimbursed.
 
 > **A place is not a reimbursement guarantee.** Being selected records your intent to attend and is
 > separate from e-COST. Reimbursement requires INDoS membership and an **e-COST invitation** that
@@ -389,10 +407,11 @@ The balance between women and men is otherwise preserved, and people are skipped
 categories, never within the list they are on. If nobody on the waiting list can hold the place,
 that is reported rather than filled from another category.
 
-## Reimbursement (face-to-face participants)
+## Reimbursement (in-person participants)
 
-**Travel and subsistence are covered** for eligible participants, through the standard COST
-mechanism. Reimbursement comprises a **flat-rate daily allowance** (per the COST daily-allowance
+**Travel and subsistence are covered** for eligible in-person participants, through the standard
+COST mechanism. Online attendance is not reimbursed: there is no travel claim and no daily
+allowance, because there is no travel. Reimbursement comprises a **flat-rate daily allowance** (per the COST daily-allowance
 table for the host country, covering accommodation, meals, and local transport)
 **plus travel costs up to a total of €1,500**. There is no registration fee.
 

@@ -9,7 +9,7 @@ hide_title: true
   <div class="ts-hero__body">
     <p class="ts-hero__eyebrow">INDoS · Working Group 3</p>
     <h1 class="ts-hero__title">Training School</h1>
-    <p class="ts-hero__meta">Madrid · 30 September – 2 October 2026 <span>CSIC Campus Serrano, c/ Serrano 113, Madrid, Spain</span></p>
+    <p class="ts-hero__meta">Hybrid · 30 September – 2 October 2026 <span>Face-to-face: CSIC, c/ Serrano 113, Madrid, Spain</span></p>
   </div>
   <p class="ts-hero__credit">Illustration generated with Google Gemini (AI)</p>
 </header>
@@ -389,7 +389,7 @@ The balance between women and men is otherwise preserved, and people are skipped
 categories, never within the list they are on. If nobody on the waiting list can hold the place,
 that is reported rather than filled from another category.
 
-## Reimbursement
+## Reimbursement (face-to-face participants)
 
 **Travel and subsistence are covered** for eligible participants, through the standard COST
 mechanism. Reimbursement comprises a **flat-rate daily allowance** (per the COST daily-allowance

@@ -14,6 +14,37 @@ hide_title: true
   <p class="ts-hero__credit">Illustration generated with Google Gemini (AI)</p>
 </header>
 
+
+## Registration (e-COST invitation required)
+
+Taking part, in person or online, requires an **e-COST invitation**, which you receive from the
+organisers and must accept. Places in the room were allocated through a two-phase registration:
+a pre-registration round in July, whose answers also set the dates, and an open registration in
+August for the remaining funded seats. Both are closed, and a waiting list built under the
+[published rule](#how-places-are-allocated) fills any place that comes free. A third
+registration window, for **online participation only**, will open soon.
+
+<div class="ts-cta ts-cta--closed">
+  <div class="ts-cta__text">
+    <p class="ts-cta__eyebrow">Registration closed</p>
+    <p class="ts-cta__deadline">Closed <strong>21 August 2026</strong>, 23:59&nbsp;CEST</p>
+    <p class="ts-cta__note">Registration is now closed. We will notify everyone
+    who registered, selected or not, by <strong>Friday 28 August</strong>. See
+    <a href="#country-representation">which countries those are</a> and
+    <a href="#how-places-are-allocated">how places are allocated</a>.</p>
+  </div>
+  <span class="ts-cta__button" role="link" aria-disabled="true">Registration closed <span aria-hidden="true">✕</span></span>
+</div>
+
+<div class="ts-cta ts-cta--closed">
+  <div class="ts-cta__text">
+    <p class="ts-cta__eyebrow">Pre-registration round closed</p>
+    <p class="ts-cta__deadline">Pre-registration closed <strong>25 July</strong> · availability confirmations closed <strong>6 August</strong></p>
+    <p class="ts-cta__note">Thanks to everyone who responded: your answers chose these dates, and
+    places were assigned from that round on 8 August. Both registration rounds are now closed.</p>
+  </div>
+</div>
+
 ## Programme at a glance
 
 The Training School is **hybrid**: the three days can be followed in the room in Madrid or
@@ -434,28 +465,5 @@ See the [COST Annotated Rules](https://www.cost.eu/cost-actions/annotated-rules-
 {% include person id="oscar" photo="no" %}
 
 <div data-fold-end></div>
-
-<br />
-
-<div class="ts-cta ts-cta--closed">
-  <div class="ts-cta__text">
-    <p class="ts-cta__eyebrow">Registration closed</p>
-    <p class="ts-cta__deadline">Closed <strong>21 August 2026</strong>, 23:59&nbsp;CEST</p>
-    <p class="ts-cta__note">Registration is now closed. We will notify everyone
-    who registered, selected or not, by <strong>Friday 28 August</strong>. See
-    <a href="#country-representation">which countries those are</a> and
-    <a href="#how-places-are-allocated">how places are allocated</a>.</p>
-  </div>
-  <span class="ts-cta__button" role="link" aria-disabled="true">Registration closed <span aria-hidden="true">✕</span></span>
-</div>
-
-<div class="ts-cta ts-cta--closed">
-  <div class="ts-cta__text">
-    <p class="ts-cta__eyebrow">Pre-registration round closed</p>
-    <p class="ts-cta__deadline">Pre-registration closed <strong>25 July</strong> · availability confirmations closed <strong>6 August</strong></p>
-    <p class="ts-cta__note">Thanks to everyone who responded: your answers chose these dates, and
-    places were assigned from that round on 8 August. Both registration rounds are now closed.</p>
-  </div>
-</div>
 
 <script src="{{ '/assets/script/fold-sections.js' | relative_url }}?v={{ site.time | date: '%s' }}" data-open="programme-at-a-glance" defer></script>

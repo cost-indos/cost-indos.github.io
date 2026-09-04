@@ -4,7 +4,7 @@ title: News
 
 Follow us on [BlueSky](https://bsky.app/profile/indos-costaction.bsky.social) and [LinkedIn](https://www.linkedin.com/groups/15307040/).
 
-## 3 September 2026 - WG3 Training School: online registration open until 13 September
+## 4 September 2026 - WG3 Training School: online registration open until 13 September
 
 The [WG3 Training School](/training) in Madrid (30 September to 2 October) is **hybrid**, and a
 third registration window is now open for **online attendance**, until **Sunday 13 September
